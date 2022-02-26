@@ -19,7 +19,7 @@ twint.run.Search(j)
 # Pull tweets since 02-22-2022, about global warming, and store them in a CSV
 x = twint.Config()
 x.Search = "global warming"
-x.Since = "2022-02-22"
+x.Since = "2022-02-24"
 x.Output = "climateChange.csv"
 x.Store_csv = True
 
